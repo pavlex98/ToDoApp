@@ -1,0 +1,17 @@
+C:\Users\User\source\repos\ToDoApp\ToDoApp\bin\Debug\ToDoApp.exe.config
+C:\Users\User\source\repos\ToDoApp\ToDoApp\bin\Debug\ToDoApp.exe
+C:\Users\User\source\repos\ToDoApp\ToDoApp\bin\Debug\ToDoApp.pdb
+C:\Users\User\source\repos\ToDoApp\ToDoApp\obj\Debug\ToDoApp.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\ToDoApp\ToDoApp\obj\Debug\ToDoApp.LoginForm.resources
+C:\Users\User\source\repos\ToDoApp\ToDoApp\obj\Debug\ToDoApp.Properties.Resources.resources
+C:\Users\User\source\repos\ToDoApp\ToDoApp\obj\Debug\ToDoApp.csproj.GenerateResource.cache
+C:\Users\User\source\repos\ToDoApp\ToDoApp\obj\Debug\ToDoApp.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ToDoApp\ToDoApp\obj\Debug\ToDoApp.exe
+C:\Users\User\source\repos\ToDoApp\ToDoApp\obj\Debug\ToDoApp.pdb
+C:\Users\User\source\repos\ToDoApp\ToDoApp\bin\Debug\MySql.Data.dll
+C:\Users\User\source\repos\ToDoApp\ToDoApp\bin\Debug\System.Memory.dll
+C:\Users\User\source\repos\ToDoApp\ToDoApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\User\source\repos\ToDoApp\ToDoApp\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\source\repos\ToDoApp\ToDoApp\bin\Debug\System.Buffers.dll
+C:\Users\User\source\repos\ToDoApp\ToDoApp\bin\Debug\MySql.Data.xml
+C:\Users\User\source\repos\ToDoApp\ToDoApp\obj\Debug\ToDoApp.csproj.Up2Date
