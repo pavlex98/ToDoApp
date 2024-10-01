@@ -95,11 +95,40 @@ namespace ToDoApp
 
             adapter.SelectCommand = command;
             adapter.Fill(table); // Записываем данные с запроса в table
-
             if (table.Rows.Count > 0)
                 MessageBox.Show("Good Job!!!");
             else
                 MessageBox.Show("Baaad!!!");
+
+        }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PasswordField_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LoginField_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SignUpLabel_Click(object sender, EventArgs e)
+        {
 
         }
     }

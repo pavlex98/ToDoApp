@@ -48,6 +48,7 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Login";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label1_MouseDown);
             this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
             // 
@@ -60,6 +61,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(727, 100);
             this.panel1.TabIndex = 1;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // closeButton
             // 
@@ -86,6 +88,7 @@
             this.SignUpLabel.Size = new System.Drawing.Size(45, 13);
             this.SignUpLabel.TabIndex = 8;
             this.SignUpLabel.Text = "Sign Up";
+            this.SignUpLabel.Click += new System.EventHandler(this.SignUpLabel_Click);
             this.SignUpLabel.MouseEnter += new System.EventHandler(this.SignUpLabel_MouseEnter);
             this.SignUpLabel.MouseLeave += new System.EventHandler(this.SignUpLabel_MouseLeave);
             // 
@@ -110,13 +113,15 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.PasswordField.CornerRadius = 25;
             this.PasswordField.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.PasswordField.Location = new System.Drawing.Point(237, 285);
+            this.PasswordField.Location = new System.Drawing.Point(235, 287);
             this.PasswordField.Multiline = true;
             this.PasswordField.Name = "PasswordField";
             this.PasswordField.Size = new System.Drawing.Size(259, 36);
             this.PasswordField.TabIndex = 6;
             this.PasswordField.Text = "Password";
             this.PasswordField.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.PasswordField.UseSystemPasswordChar = true;
+            this.PasswordField.TextChanged += new System.EventHandler(this.PasswordField_TextChanged);
             // 
             // LoginField
             // 
@@ -132,6 +137,7 @@
             this.LoginField.TabIndex = 5;
             this.LoginField.Text = "Username";
             this.LoginField.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.LoginField.TextChanged += new System.EventHandler(this.LoginField_TextChanged);
             // 
             // LoginForm
             // 
@@ -148,6 +154,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LoginForm";
             this.Text = "LoginForm";
+            this.Load += new System.EventHandler(this.LoginForm_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
