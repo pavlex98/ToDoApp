@@ -16,3 +16,4 @@ C:\Users\User\source\repos\ToDoApp\ToDoApp\bin\Debug\System.Buffers.dll
 C:\Users\User\source\repos\ToDoApp\ToDoApp\bin\Debug\MySql.Data.xml
 C:\Users\User\source\repos\ToDoApp\ToDoApp\obj\Debug\ToDoApp.csproj.Up2Date
 C:\Users\User\source\repos\ToDoApp\ToDoApp\obj\Debug\ToDoApp.RegistrationForm.resources
+C:\Users\User\source\repos\ToDoApp\ToDoApp\obj\Debug\ToDoApp.MainForm.resources
